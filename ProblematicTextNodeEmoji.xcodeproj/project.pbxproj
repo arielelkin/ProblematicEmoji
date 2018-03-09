@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56520585818FD3869898A75B /* Pods_ProblematicTextNodeEmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465985A5E18D9CE982234DBF /* Pods_ProblematicTextNodeEmoji.framework */; };
 		B0859E8C2052DF1900E810CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0859E8B2052DF1900E810CC /* AppDelegate.swift */; };
-		B0859E8E2052DF1900E810CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0859E8D2052DF1900E810CC /* ViewController.swift */; };
-		B0859E912052DF1900E810CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0859E8F2052DF1900E810CC /* Main.storyboard */; };
+		B0859E8E2052DF1900E810CC /* MyCommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0859E8D2052DF1900E810CC /* MyCommentVC.swift */; };
 		B0859E932052DF1900E810CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0859E922052DF1900E810CC /* Assets.xcassets */; };
 		B0859E962052DF1900E810CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0859E942052DF1900E810CC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		076954AA401911DA63B846E8 /* Pods-ProblematicTextNodeEmoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProblematicTextNodeEmoji.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProblematicTextNodeEmoji/Pods-ProblematicTextNodeEmoji.debug.xcconfig"; sourceTree = "<group>"; };
+		465985A5E18D9CE982234DBF /* Pods_ProblematicTextNodeEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProblematicTextNodeEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0859E882052DF1900E810CC /* ProblematicTextNodeEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProblematicTextNodeEmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0859E8B2052DF1900E810CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0859E8D2052DF1900E810CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B0859E902052DF1900E810CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0859E8D2052DF1900E810CC /* MyCommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCommentVC.swift; sourceTree = "<group>"; };
 		B0859E922052DF1900E810CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0859E952052DF1900E810CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0859E972052DF1900E810CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FE889A3D3216C93F654AEE /* Pods-ProblematicTextNodeEmoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProblematicTextNodeEmoji.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProblematicTextNodeEmoji/Pods-ProblematicTextNodeEmoji.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +31,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56520585818FD3869898A75B /* Pods_ProblematicTextNodeEmoji.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0837FF5C5F2DD1E9A7465D53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				076954AA401911DA63B846E8 /* Pods-ProblematicTextNodeEmoji.debug.xcconfig */,
+				B6FE889A3D3216C93F654AEE /* Pods-ProblematicTextNodeEmoji.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B0859E7F2052DF1900E810CC = {
 			isa = PBXGroup;
 			children = (
 				B0859E8A2052DF1900E810CC /* ProblematicTextNodeEmoji */,
 				B0859E892052DF1900E810CC /* Products */,
+				0837FF5C5F2DD1E9A7465D53 /* Pods */,
+				CD3E357B3F73610E41BD54C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +69,20 @@
 			isa = PBXGroup;
 			children = (
 				B0859E8B2052DF1900E810CC /* AppDelegate.swift */,
-				B0859E8D2052DF1900E810CC /* ViewController.swift */,
-				B0859E8F2052DF1900E810CC /* Main.storyboard */,
+				B0859E8D2052DF1900E810CC /* MyCommentVC.swift */,
 				B0859E922052DF1900E810CC /* Assets.xcassets */,
 				B0859E942052DF1900E810CC /* LaunchScreen.storyboard */,
 				B0859E972052DF1900E810CC /* Info.plist */,
 			);
 			path = ProblematicTextNodeEmoji;
+			sourceTree = "<group>";
+		};
+		CD3E357B3F73610E41BD54C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				465985A5E18D9CE982234DBF /* Pods_ProblematicTextNodeEmoji.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +92,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0859E9A2052DF1900E810CC /* Build configuration list for PBXNativeTarget "ProblematicTextNodeEmoji" */;
 			buildPhases = (
+				A1A0EEDD3356C65A02707E88 /* [CP] Check Pods Manifest.lock */,
 				B0859E842052DF1900E810CC /* Sources */,
 				B0859E852052DF1900E810CC /* Frameworks */,
 				B0859E862052DF1900E810CC /* Resources */,
+				F9F3130A5B3584A9C0E84847 /* [CP] Embed Pods Frameworks */,
+				688C469195621742CDE131EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,18 +149,77 @@
 			files = (
 				B0859E962052DF1900E810CC /* LaunchScreen.storyboard in Resources */,
 				B0859E932052DF1900E810CC /* Assets.xcassets in Resources */,
-				B0859E912052DF1900E810CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		688C469195621742CDE131EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProblematicTextNodeEmoji/Pods-ProblematicTextNodeEmoji-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A0EEDD3356C65A02707E88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProblematicTextNodeEmoji-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F3130A5B3584A9C0E84847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProblematicTextNodeEmoji/Pods-ProblematicTextNodeEmoji-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProblematicTextNodeEmoji/Pods-ProblematicTextNodeEmoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0859E842052DF1900E810CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0859E8E2052DF1900E810CC /* ViewController.swift in Sources */,
+				B0859E8E2052DF1900E810CC /* MyCommentVC.swift in Sources */,
 				B0859E8C2052DF1900E810CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +227,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B0859E8F2052DF1900E810CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0859E902052DF1900E810CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B0859E942052DF1900E810CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,9 +347,11 @@
 		};
 		B0859E9B2052DF1900E810CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076954AA401911DA63B846E8 /* Pods-ProblematicTextNodeEmoji.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ProblematicTextNodeEmoji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ariel.ProblematicTextNodeEmoji;
@@ -286,9 +363,11 @@
 		};
 		B0859E9C2052DF1900E810CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6FE889A3D3216C93F654AEE /* Pods-ProblematicTextNodeEmoji.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ProblematicTextNodeEmoji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ariel.ProblematicTextNodeEmoji;
